@@ -1,0 +1,37 @@
+{
+  "name": "@manuj/nestjs-pkce-oauth2",
+  "version": "1.0.0",
+  "description": "A NestJS plugin to simplify OAuth2 PKCE flow integration, including decorators, guards, and token/session management.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nestjs",
+    "oauth2",
+    "pkce",
+    "nestjs-oauth2",
+    "google-login",
+    "oauth2-pkce"
+  ],
+  "author": "Manuj Dhull",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0 || ^11.0.0",
+    "axios": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

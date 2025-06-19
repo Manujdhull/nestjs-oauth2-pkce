@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ES2019",
+      "module": "CommonJS",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "strict": true,
+      "types": ["node", "express"],
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "baseUrl": "./src",
+      "outDir": "dist",
+      "declaration": true,
+      "paths": {
+    "@manuj/nestjs-pkce-oauth2": ["../nestjs-pkce-oauth2/src"]
+  }
+    },
+    "include": ["src/**/*"]
+  }
+  
