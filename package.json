@@ -1,5 +1,5 @@
 {
-  "name": "@manuj/nestjs-pkce-oauth2",
+  "name": "@manujdhull/nestjs-pkce-oauth2",
   "version": "1.0.0",
   "description": "A NestJS plugin to simplify OAuth2 PKCE flow integration, including decorators, guards, and token/session management.",
   "main": "dist/index.js",
