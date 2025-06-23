@@ -56,7 +56,7 @@ export class OAuthController {
         tokenUrl,
         new URLSearchParams({
           code: callbackData.code,
-          grant_type: 'authorization_code',
+          grant_type: 'PKCE',
           redirect_uri: redirectUri,
           client_id: clientId,
           code_verifier: codeVerifier,
